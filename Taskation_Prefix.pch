@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Taskation' target in the 'Taskation' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+
+	#import "TSKCommonConstants.h"
+#endif

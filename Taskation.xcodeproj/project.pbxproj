@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9205788A0F83D7970074DB9A /* DocDefinitionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920578890F83D7970074DB9A /* DocDefinitionsWindow.xib */; };
+		9205788F0F83D8100074DB9A /* TSKDocDefinitionsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9205788E0F83D8100074DB9A /* TSKDocDefinitionsWindowController.m */; };
+		92057A310F84585F0074DB9A /* AboutDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92057A300F84585F0074DB9A /* AboutDialog.xib */; };
+		92057A560F845CBB0074DB9A /* TSKAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92057A550F845CBB0074DB9A /* TSKAboutWindowController.m */; };
+		9219E5140EA249B700DD4D40 /* Record.png in Resources */ = {isa = PBXBuildFile; fileRef = 9219E5120EA249B700DD4D40 /* Record.png */; };
+		9219E5150EA249B700DD4D40 /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 9219E5130EA249B700DD4D40 /* Stop.png */; };
+		92389C4C0F7AF788007D5635 /* TSKReportWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 92389C4B0F7AF788007D5635 /* TSKReportWindow.m */; };
+		92389C4F0F7AF796007D5635 /* TSKDocWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 92389C4E0F7AF796007D5635 /* TSKDocWindow.m */; };
+		92389D140F7B1EFB007D5635 /* TSKActivityPrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92389D130F7B1EFB007D5635 /* TSKActivityPrintView.m */; };
+		923F4F200F2371F100C1F88E /* TSKSubjectComboBoxDepot.m in Sources */ = {isa = PBXBuildFile; fileRef = 923F4F1F0F2371F100C1F88E /* TSKSubjectComboBoxDepot.m */; };
+		923F50CC0F2391B900C1F88E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 923F50CB0F2391B900C1F88E /* Localizable.strings */; };
+		924873200EC23E7F008BA08B /* TSKNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248731F0EC23E7F008BA08B /* TSKNotesViewController.m */; };
+		9257F0C60E9AEADF00669C4A /* DefaultSubjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9257F0C50E9AEADF00669C4A /* DefaultSubjects.plist */; };
+		926C6C210F8D9D18000E85B8 /* TSKPrintData.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C6C200F8D9D18000E85B8 /* TSKPrintData.m */; };
+		926C6C240F8D9D2E000E85B8 /* TSKNotePrintData.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C6C230F8D9D2E000E85B8 /* TSKNotePrintData.m */; };
+		927A58850F2CA5BE00B29B1C /* TSKUUIDStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 927A58840F2CA5BE00B29B1C /* TSKUUIDStringCategory.m */; };
+		9284029D1120E60300BAB360 /* RegisterDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9284029C1120E60300BAB360 /* RegisterDialog.xib */; };
+		9284030A1120EBEB00BAB360 /* TSKRegisterDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928403091120EBEB00BAB360 /* TSKRegisterDialogController.m */; };
+		928FC4C60F830C0800DFA9AE /* DefinitionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 928FC4C50F830C0800DFA9AE /* DefinitionsView.xib */; };
+		928FC4CA0F830E2800DFA9AE /* TSKDefinitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928FC4C90F830E2800DFA9AE /* TSKDefinitionsViewController.m */; };
+		92900B140F858EC500D6B7AC /* LicenseDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92900B130F858EC500D6B7AC /* LicenseDialog.xib */; };
+		92900B3D0F85BC7100D6B7AC /* TSKLicenseDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92900B3C0F85BC7100D6B7AC /* TSKLicenseDialogController.m */; };
+		9294F1C80F224BEA000A2ECA /* TSKDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294F1C70F224BEA000A2ECA /* TSKDefinitions.m */; };
+		9294F2260F226193000A2ECA /* TSKActionComboBoxDepot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294F2250F226193000A2ECA /* TSKActionComboBoxDepot.m */; };
+		9296A21F0F87F026001D283F /* SSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9296A21E0F87F026001D283F /* SSCrypto.m */; };
+		9296A3430F884BAD001D283F /* DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9296A3420F884BAD001D283F /* DocumentIcon.icns */; };
+		9296A3490F8854F7001D283F /* LicenseIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9296A3480F8854F7001D283F /* LicenseIcon.icns */; };
+		9296A3880F88ED2F001D283F /* ApplicationIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9296A3870F88ED2F001D283F /* ApplicationIcon.icns */; };
+		9296BEBF0EF42E5100DD96C9 /* TSKDocCriteriaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9296BEBE0EF42E5100DD96C9 /* TSKDocCriteriaController.m */; };
+		92A8072D0F8D823900D06373 /* TSKActivityPrintData.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A8072C0F8D823900D06373 /* TSKActivityPrintData.m */; };
+		92B3EFFC112480DA001F14D1 /* EULA.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 92B3EFFB112480DA001F14D1 /* EULA.rtf */; };
+		92B3EFFE11248256001F14D1 /* EULA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B3EFFD11248256001F14D1 /* EULA.xib */; };
+		92B3F0251124884B001F14D1 /* TSKEULAWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B3F0241124884B001F14D1 /* TSKEULAWindowController.m */; };
+		92BB238A0F2EB04400C4FFBE /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92BB23890F2EB04400C4FFBE /* PreferencesWindow.xib */; };
+		92BB239E0F2EB3E100C4FFBE /* TSKPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BB239D0F2EB3E100C4FFBE /* TSKPrefsWindowController.m */; };
+		92C890930E8EF2DF00986022 /* TSKAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C890920E8EF2DF00986022 /* TSKAppController.m */; };
+		92C890A50E8EF39100986022 /* DocumentWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C890A40E8EF39100986022 /* DocumentWindow.xib */; };
+		92C890A90E8EF45200986022 /* TSKDocWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C890A80E8EF45200986022 /* TSKDocWindowController.m */; };
+		92C890EB0E8EFCB100986022 /* TSKActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C890EA0E8EFCB100986022 /* TSKActivity.m */; };
+		92C9E0030EA815620097920D /* TSKConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E0020EA815620097920D /* TSKConsoleViewController.m */; };
+		92C9E0B00EA81F1B0097920D /* TSKDocToolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E0AF0EA81F1B0097920D /* TSKDocToolbarController.m */; };
+		92E144FA0EFDC7EB006741FE /* TSKDocReportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E144F90EFDC7EB006741FE /* TSKDocReportController.m */; };
+		92E145640EFEB087006741FE /* TSKReportWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E145630EFEB087006741FE /* TSKReportWindowController.m */; };
+		92E145660EFEB0A5006741FE /* ReportWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E145650EFEB0A5006741FE /* ReportWindow.xib */; };
+		92E145700EFEB118006741FE /* TSKReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E1456F0EFEB118006741FE /* TSKReportView.m */; };
+		92E33BFF0EF7EA5C0029FCD0 /* TSKDocActivitiesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E33BFE0EF7EA5C0029FCD0 /* TSKDocActivitiesController.m */; };
+		92E6A5DA0E9AE7AF00A8F73E /* DefaultActions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92E6A5D90E9AE7AF00A8F73E /* DefaultActions.plist */; };
+		92F1EC410EF80DBD001AE750 /* TSKElapsedTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F1EC400EF80DBD001AE750 /* TSKElapsedTimeFormatter.m */; };
+		92F6ED5111235E8A00EB38D8 /* TSKLicenseKeyComponentFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F6ED5011235E8A00EB38D8 /* TSKLicenseKeyComponentFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Taskation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taskation_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Taskation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920578890F83D7970074DB9A /* DocDefinitionsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocDefinitionsWindow.xib; sourceTree = "<group>"; };
+		9205788D0F83D8100074DB9A /* TSKDocDefinitionsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKDocDefinitionsWindowController.h; sourceTree = "<group>"; };
+		9205788E0F83D8100074DB9A /* TSKDocDefinitionsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDocDefinitionsWindowController.m; sourceTree = "<group>"; };
+		92057A300F84585F0074DB9A /* AboutDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutDialog.xib; sourceTree = "<group>"; };
+		92057A540F845CBB0074DB9A /* TSKAboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKAboutWindowController.h; sourceTree = "<group>"; };
+		92057A550F845CBB0074DB9A /* TSKAboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKAboutWindowController.m; sourceTree = "<group>"; };
+		9219E5120EA249B700DD4D40 /* Record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Record.png; sourceTree = "<group>"; };
+		9219E5130EA249B700DD4D40 /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
+		92389C4A0F7AF788007D5635 /* TSKReportWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKReportWindow.h; sourceTree = "<group>"; };
+		92389C4B0F7AF788007D5635 /* TSKReportWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKReportWindow.m; sourceTree = "<group>"; };
+		92389C4D0F7AF796007D5635 /* TSKDocWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKDocWindow.h; sourceTree = "<group>"; };
+		92389C4E0F7AF796007D5635 /* TSKDocWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDocWindow.m; sourceTree = "<group>"; };
+		92389D120F7B1EFB007D5635 /* TSKActivityPrintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKActivityPrintView.h; sourceTree = "<group>"; };
+		92389D130F7B1EFB007D5635 /* TSKActivityPrintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKActivityPrintView.m; sourceTree = "<group>"; };
+		923F4F1E0F2371F100C1F88E /* TSKSubjectComboBoxDepot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKSubjectComboBoxDepot.h; sourceTree = "<group>"; };
+		923F4F1F0F2371F100C1F88E /* TSKSubjectComboBoxDepot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKSubjectComboBoxDepot.m; sourceTree = "<group>"; };
+		923F50CB0F2391B900C1F88E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9248731E0EC23E7F008BA08B /* TSKNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKNotesViewController.h; sourceTree = "<group>"; };
+		9248731F0EC23E7F008BA08B /* TSKNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKNotesViewController.m; sourceTree = "<group>"; };
+		924874BF0E9073C600A4A3A2 /* TSKCommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKCommonConstants.h; sourceTree = "<group>"; };
+		924874C70E90796700A4A3A2 /*  Journal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = " Journal.txt"; sourceTree = "<group>"; };
+		9257F0C50E9AEADF00669C4A /* DefaultSubjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultSubjects.plist; sourceTree = "<group>"; };
+		926C6C1F0F8D9D18000E85B8 /* TSKPrintData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKPrintData.h; sourceTree = "<group>"; };
+		926C6C200F8D9D18000E85B8 /* TSKPrintData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKPrintData.m; sourceTree = "<group>"; };
+		926C6C220F8D9D2E000E85B8 /* TSKNotePrintData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKNotePrintData.h; sourceTree = "<group>"; };
+		926C6C230F8D9D2E000E85B8 /* TSKNotePrintData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKNotePrintData.m; sourceTree = "<group>"; };
+		927A58830F2CA5BE00B29B1C /* TSKUUIDStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKUUIDStringCategory.h; sourceTree = "<group>"; };
+		927A58840F2CA5BE00B29B1C /* TSKUUIDStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKUUIDStringCategory.m; sourceTree = "<group>"; };
+		9284029C1120E60300BAB360 /* RegisterDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterDialog.xib; sourceTree = "<group>"; };
+		928403081120EBEB00BAB360 /* TSKRegisterDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKRegisterDialogController.h; sourceTree = "<group>"; };
+		928403091120EBEB00BAB360 /* TSKRegisterDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKRegisterDialogController.m; sourceTree = "<group>"; };
+		928FC4C50F830C0800DFA9AE /* DefinitionsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefinitionsView.xib; sourceTree = "<group>"; };
+		928FC4C80F830E2800DFA9AE /* TSKDefinitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKDefinitionsViewController.h; sourceTree = "<group>"; };
+		928FC4C90F830E2800DFA9AE /* TSKDefinitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDefinitionsViewController.m; sourceTree = "<group>"; };
+		92900B130F858EC500D6B7AC /* LicenseDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LicenseDialog.xib; sourceTree = "<group>"; };
+		92900B3B0F85BC7100D6B7AC /* TSKLicenseDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKLicenseDialogController.h; sourceTree = "<group>"; };
+		92900B3C0F85BC7100D6B7AC /* TSKLicenseDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKLicenseDialogController.m; sourceTree = "<group>"; };
+		9294F1C60F224BEA000A2ECA /* TSKDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKDefinitions.h; sourceTree = "<group>"; };
+		9294F1C70F224BEA000A2ECA /* TSKDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDefinitions.m; sourceTree = "<group>"; };
+		9294F2240F226193000A2ECA /* TSKActionComboBoxDepot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKActionComboBoxDepot.h; sourceTree = "<group>"; };
+		9294F2250F226193000A2ECA /* TSKActionComboBoxDepot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKActionComboBoxDepot.m; sourceTree = "<group>"; };
+		9296A21D0F87F026001D283F /* SSCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCrypto.h; sourceTree = "<group>"; };
+		9296A21E0F87F026001D283F /* SSCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCrypto.m; sourceTree = "<group>"; };
+		9296A3420F884BAD001D283F /* DocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DocumentIcon.icns; sourceTree = "<group>"; };
+		9296A3480F8854F7001D283F /* LicenseIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = LicenseIcon.icns; sourceTree = "<group>"; };
+		9296A3870F88ED2F001D283F /* ApplicationIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ApplicationIcon.icns; sourceTree = "<group>"; };
+		9296BEBE0EF42E5100DD96C9 /* TSKDocCriteriaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDocCriteriaController.m; sourceTree = "<group>"; };
+		92A8072B0F8D823900D06373 /* TSKActivityPrintData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKActivityPrintData.h; sourceTree = "<group>"; };
+		92A8072C0F8D823900D06373 /* TSKActivityPrintData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKActivityPrintData.m; sourceTree = "<group>"; };
+		92B3EFFB112480DA001F14D1 /* EULA.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = EULA.rtf; sourceTree = "<group>"; };
+		92B3EFFD11248256001F14D1 /* EULA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EULA.xib; sourceTree = "<group>"; };
+		92B3F0231124884B001F14D1 /* TSKEULAWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKEULAWindowController.h; sourceTree = "<group>"; };
+		92B3F0241124884B001F14D1 /* TSKEULAWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKEULAWindowController.m; sourceTree = "<group>"; };
+		92BB23890F2EB04400C4FFBE /* PreferencesWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		92BB239C0F2EB3E100C4FFBE /* TSKPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKPrefsWindowController.h; sourceTree = "<group>"; };
+		92BB239D0F2EB3E100C4FFBE /* TSKPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKPrefsWindowController.m; sourceTree = "<group>"; };
+		92C890910E8EF2DF00986022 /* TSKAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKAppController.h; sourceTree = "<group>"; };
+		92C890920E8EF2DF00986022 /* TSKAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKAppController.m; sourceTree = "<group>"; };
+		92C890A40E8EF39100986022 /* DocumentWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentWindow.xib; sourceTree = "<group>"; };
+		92C890A70E8EF45200986022 /* TSKDocWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKDocWindowController.h; sourceTree = "<group>"; };
+		92C890A80E8EF45200986022 /* TSKDocWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDocWindowController.m; sourceTree = "<group>"; };
+		92C890E90E8EFCB100986022 /* TSKActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKActivity.h; sourceTree = "<group>"; };
+		92C890EA0E8EFCB100986022 /* TSKActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKActivity.m; sourceTree = "<group>"; };
+		92C9E0010EA815620097920D /* TSKConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKConsoleViewController.h; sourceTree = "<group>"; };
+		92C9E0020EA815620097920D /* TSKConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKConsoleViewController.m; sourceTree = "<group>"; };
+		92C9E0AF0EA81F1B0097920D /* TSKDocToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDocToolbarController.m; sourceTree = "<group>"; };
+		92E144F90EFDC7EB006741FE /* TSKDocReportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDocReportController.m; sourceTree = "<group>"; };
+		92E145620EFEB087006741FE /* TSKReportWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKReportWindowController.h; sourceTree = "<group>"; };
+		92E145630EFEB087006741FE /* TSKReportWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKReportWindowController.m; sourceTree = "<group>"; };
+		92E145650EFEB0A5006741FE /* ReportWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportWindow.xib; sourceTree = "<group>"; };
+		92E1456E0EFEB118006741FE /* TSKReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKReportView.h; sourceTree = "<group>"; };
+		92E1456F0EFEB118006741FE /* TSKReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKReportView.m; sourceTree = "<group>"; };
+		92E33BFE0EF7EA5C0029FCD0 /* TSKDocActivitiesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKDocActivitiesController.m; sourceTree = "<group>"; };
+		92E6A5D90E9AE7AF00A8F73E /* DefaultActions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultActions.plist; sourceTree = "<group>"; };
+		92F1EC3F0EF80DBD001AE750 /* TSKElapsedTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKElapsedTimeFormatter.h; sourceTree = "<group>"; };
+		92F1EC400EF80DBD001AE750 /* TSKElapsedTimeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKElapsedTimeFormatter.m; sourceTree = "<group>"; };
+		92F6ED4F11235E8A00EB38D8 /* TSKLicenseKeyComponentFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKLicenseKeyComponentFormatter.h; sourceTree = "<group>"; };
+		92F6ED5011235E8A00EB38D8 /* TSKLicenseKeyComponentFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKLicenseKeyComponentFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				923F4F5F0F237B4C00C1F88E /* GUI Data Formatters */,
+				923F4F5E0F237B2A00C1F88E /* GUI Data Sources */,
+				923F4F5D0F237B1200C1F88E /* GUI Views */,
+				923F4F5C0F237AF300C1F88E /* GUI Controllers */,
+				9294F1C70F224BEA000A2ECA /* TSKDefinitions.m */,
+				9294F1C60F224BEA000A2ECA /* TSKDefinitions.h */,
+				92C890EA0E8EFCB100986022 /* TSKActivity.m */,
+				92C890E90E8EFCB100986022 /* TSKActivity.h */,
+				927A58840F2CA5BE00B29B1C /* TSKUUIDStringCategory.m */,
+				927A58830F2CA5BE00B29B1C /* TSKUUIDStringCategory.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Taskation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Taskation */ = {
+			isa = PBXGroup;
+			children = (
+				924874C60E90795300A4A3A2 /* Notes */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				92900B190F85AC3000D6B7AC /* Libraries */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Taskation;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9296A21E0F87F026001D283F /* SSCrypto.m */,
+				9296A21D0F87F026001D283F /* SSCrypto.h */,
+				32CA4F630368D1EE00C91783 /* Taskation_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				924874BF0E9073C600A4A3A2 /* TSKCommonConstants.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92BB238C0F2EB07800C4FFBE /* Images */,
+				92BB238B0F2EB05800C4FFBE /* XIBs */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				923F50CB0F2391B900C1F88E /* Localizable.strings */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				92E6A5D90E9AE7AF00A8F73E /* DefaultActions.plist */,
+				9257F0C50E9AEADF00669C4A /* DefaultSubjects.plist */,
+				92B3EFFB112480DA001F14D1 /* EULA.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		923F4F5C0F237AF300C1F88E /* GUI Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				92057A550F845CBB0074DB9A /* TSKAboutWindowController.m */,
+				92057A540F845CBB0074DB9A /* TSKAboutWindowController.h */,
+				928FC4C90F830E2800DFA9AE /* TSKDefinitionsViewController.m */,
+				928FC4C80F830E2800DFA9AE /* TSKDefinitionsViewController.h */,
+				92BB239D0F2EB3E100C4FFBE /* TSKPrefsWindowController.m */,
+				92BB239C0F2EB3E100C4FFBE /* TSKPrefsWindowController.h */,
+				92C890920E8EF2DF00986022 /* TSKAppController.m */,
+				92C890910E8EF2DF00986022 /* TSKAppController.h */,
+				92C9E0020EA815620097920D /* TSKConsoleViewController.m */,
+				92C9E0010EA815620097920D /* TSKConsoleViewController.h */,
+				92E33BFE0EF7EA5C0029FCD0 /* TSKDocActivitiesController.m */,
+				9205788E0F83D8100074DB9A /* TSKDocDefinitionsWindowController.m */,
+				9205788D0F83D8100074DB9A /* TSKDocDefinitionsWindowController.h */,
+				92C9E0AF0EA81F1B0097920D /* TSKDocToolbarController.m */,
+				92C890A80E8EF45200986022 /* TSKDocWindowController.m */,
+				9296BEBE0EF42E5100DD96C9 /* TSKDocCriteriaController.m */,
+				92E144F90EFDC7EB006741FE /* TSKDocReportController.m */,
+				92C890A70E8EF45200986022 /* TSKDocWindowController.h */,
+				92B3F0241124884B001F14D1 /* TSKEULAWindowController.m */,
+				92B3F0231124884B001F14D1 /* TSKEULAWindowController.h */,
+				92900B3C0F85BC7100D6B7AC /* TSKLicenseDialogController.m */,
+				92900B3B0F85BC7100D6B7AC /* TSKLicenseDialogController.h */,
+				9248731F0EC23E7F008BA08B /* TSKNotesViewController.m */,
+				9248731E0EC23E7F008BA08B /* TSKNotesViewController.h */,
+				928403091120EBEB00BAB360 /* TSKRegisterDialogController.m */,
+				928403081120EBEB00BAB360 /* TSKRegisterDialogController.h */,
+				92E145630EFEB087006741FE /* TSKReportWindowController.m */,
+				92E145620EFEB087006741FE /* TSKReportWindowController.h */,
+			);
+			name = "GUI Controllers";
+			sourceTree = "<group>";
+		};
+		923F4F5D0F237B1200C1F88E /* GUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				92A8072C0F8D823900D06373 /* TSKActivityPrintData.m */,
+				92A8072B0F8D823900D06373 /* TSKActivityPrintData.h */,
+				92389D130F7B1EFB007D5635 /* TSKActivityPrintView.m */,
+				92389D120F7B1EFB007D5635 /* TSKActivityPrintView.h */,
+				92E1456F0EFEB118006741FE /* TSKReportView.m */,
+				92E1456E0EFEB118006741FE /* TSKReportView.h */,
+				92389C4B0F7AF788007D5635 /* TSKReportWindow.m */,
+				92389C4A0F7AF788007D5635 /* TSKReportWindow.h */,
+				92389C4E0F7AF796007D5635 /* TSKDocWindow.m */,
+				92389C4D0F7AF796007D5635 /* TSKDocWindow.h */,
+				926C6C230F8D9D2E000E85B8 /* TSKNotePrintData.m */,
+				926C6C220F8D9D2E000E85B8 /* TSKNotePrintData.h */,
+				926C6C200F8D9D18000E85B8 /* TSKPrintData.m */,
+				926C6C1F0F8D9D18000E85B8 /* TSKPrintData.h */,
+			);
+			name = "GUI Views";
+			sourceTree = "<group>";
+		};
+		923F4F5E0F237B2A00C1F88E /* GUI Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9294F2250F226193000A2ECA /* TSKActionComboBoxDepot.m */,
+				9294F2240F226193000A2ECA /* TSKActionComboBoxDepot.h */,
+				923F4F1F0F2371F100C1F88E /* TSKSubjectComboBoxDepot.m */,
+				923F4F1E0F2371F100C1F88E /* TSKSubjectComboBoxDepot.h */,
+			);
+			name = "GUI Data Sources";
+			sourceTree = "<group>";
+		};
+		923F4F5F0F237B4C00C1F88E /* GUI Data Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				92F1EC400EF80DBD001AE750 /* TSKElapsedTimeFormatter.m */,
+				92F1EC3F0EF80DBD001AE750 /* TSKElapsedTimeFormatter.h */,
+				92F6ED5011235E8A00EB38D8 /* TSKLicenseKeyComponentFormatter.m */,
+				92F6ED4F11235E8A00EB38D8 /* TSKLicenseKeyComponentFormatter.h */,
+			);
+			name = "GUI Data Formatters";
+			sourceTree = "<group>";
+		};
+		924874C60E90795300A4A3A2 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				924874C70E90796700A4A3A2 /*  Journal.txt */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+		92900B190F85AC3000D6B7AC /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		92BB238B0F2EB05800C4FFBE /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				92057A300F84585F0074DB9A /* AboutDialog.xib */,
+				92BB23890F2EB04400C4FFBE /* PreferencesWindow.xib */,
+				92C890A40E8EF39100986022 /* DocumentWindow.xib */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				92E145650EFEB0A5006741FE /* ReportWindow.xib */,
+				928FC4C50F830C0800DFA9AE /* DefinitionsView.xib */,
+				920578890F83D7970074DB9A /* DocDefinitionsWindow.xib */,
+				92900B130F858EC500D6B7AC /* LicenseDialog.xib */,
+				9284029C1120E60300BAB360 /* RegisterDialog.xib */,
+				92B3EFFD11248256001F14D1 /* EULA.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		92BB238C0F2EB07800C4FFBE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9296A3870F88ED2F001D283F /* ApplicationIcon.icns */,
+				9296A3480F8854F7001D283F /* LicenseIcon.icns */,
+				9296A3420F884BAD001D283F /* DocumentIcon.icns */,
+				9219E5120EA249B700DD4D40 /* Record.png */,
+				9219E5130EA249B700DD4D40 /* Stop.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Taskation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Taskation" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taskation;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Taskation;
+			productReference = 8D1107320486CEB800E47090 /* Taskation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Taskation" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Taskation */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Taskation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				92C890A50E8EF39100986022 /* DocumentWindow.xib in Resources */,
+				92E6A5DA0E9AE7AF00A8F73E /* DefaultActions.plist in Resources */,
+				9257F0C60E9AEADF00669C4A /* DefaultSubjects.plist in Resources */,
+				9219E5140EA249B700DD4D40 /* Record.png in Resources */,
+				9219E5150EA249B700DD4D40 /* Stop.png in Resources */,
+				92E145660EFEB0A5006741FE /* ReportWindow.xib in Resources */,
+				923F50CC0F2391B900C1F88E /* Localizable.strings in Resources */,
+				92BB238A0F2EB04400C4FFBE /* PreferencesWindow.xib in Resources */,
+				928FC4C60F830C0800DFA9AE /* DefinitionsView.xib in Resources */,
+				9205788A0F83D7970074DB9A /* DocDefinitionsWindow.xib in Resources */,
+				92057A310F84585F0074DB9A /* AboutDialog.xib in Resources */,
+				92900B140F858EC500D6B7AC /* LicenseDialog.xib in Resources */,
+				9296A3430F884BAD001D283F /* DocumentIcon.icns in Resources */,
+				9296A3490F8854F7001D283F /* LicenseIcon.icns in Resources */,
+				9296A3880F88ED2F001D283F /* ApplicationIcon.icns in Resources */,
+				9284029D1120E60300BAB360 /* RegisterDialog.xib in Resources */,
+				92B3EFFC112480DA001F14D1 /* EULA.rtf in Resources */,
+				92B3EFFE11248256001F14D1 /* EULA.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				92C890930E8EF2DF00986022 /* TSKAppController.m in Sources */,
+				92C890A90E8EF45200986022 /* TSKDocWindowController.m in Sources */,
+				92C890EB0E8EFCB100986022 /* TSKActivity.m in Sources */,
+				92C9E0030EA815620097920D /* TSKConsoleViewController.m in Sources */,
+				92C9E0B00EA81F1B0097920D /* TSKDocToolbarController.m in Sources */,
+				924873200EC23E7F008BA08B /* TSKNotesViewController.m in Sources */,
+				9296BEBF0EF42E5100DD96C9 /* TSKDocCriteriaController.m in Sources */,
+				92E33BFF0EF7EA5C0029FCD0 /* TSKDocActivitiesController.m in Sources */,
+				92F1EC410EF80DBD001AE750 /* TSKElapsedTimeFormatter.m in Sources */,
+				92E144FA0EFDC7EB006741FE /* TSKDocReportController.m in Sources */,
+				92E145640EFEB087006741FE /* TSKReportWindowController.m in Sources */,
+				92E145700EFEB118006741FE /* TSKReportView.m in Sources */,
+				9294F1C80F224BEA000A2ECA /* TSKDefinitions.m in Sources */,
+				9294F2260F226193000A2ECA /* TSKActionComboBoxDepot.m in Sources */,
+				923F4F200F2371F100C1F88E /* TSKSubjectComboBoxDepot.m in Sources */,
+				927A58850F2CA5BE00B29B1C /* TSKUUIDStringCategory.m in Sources */,
+				92BB239E0F2EB3E100C4FFBE /* TSKPrefsWindowController.m in Sources */,
+				92389C4C0F7AF788007D5635 /* TSKReportWindow.m in Sources */,
+				92389C4F0F7AF796007D5635 /* TSKDocWindow.m in Sources */,
+				92389D140F7B1EFB007D5635 /* TSKActivityPrintView.m in Sources */,
+				928FC4CA0F830E2800DFA9AE /* TSKDefinitionsViewController.m in Sources */,
+				9205788F0F83D8100074DB9A /* TSKDocDefinitionsWindowController.m in Sources */,
+				92057A560F845CBB0074DB9A /* TSKAboutWindowController.m in Sources */,
+				92900B3D0F85BC7100D6B7AC /* TSKLicenseDialogController.m in Sources */,
+				9296A21F0F87F026001D283F /* SSCrypto.m in Sources */,
+				92A8072D0F8D823900D06373 /* TSKActivityPrintData.m in Sources */,
+				926C6C210F8D9D18000E85B8 /* TSKPrintData.m in Sources */,
+				926C6C240F8D9D2E000E85B8 /* TSKNotePrintData.m in Sources */,
+				9284030A1120EBEB00BAB360 /* TSKRegisterDialogController.m in Sources */,
+				92F6ED5111235E8A00EB38D8 /* TSKLicenseKeyComponentFormatter.m in Sources */,
+				92B3F0251124884B001F14D1 /* TSKEULAWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Taskation_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = TSK_CONFIGURATION_DEBUG;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Aquatic/products/AquaticPrime\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = Taskation;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Taskation_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = TSK_CONFIGURATION_RELEASE;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Aquatic/products/AquaticPrime\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = Taskation;
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Taskation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Taskation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

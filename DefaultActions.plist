@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>3AA2918A-0B54-4C0D-8BB1-E0DD565FE438</key>
+	<dict>
+		<key>name</key>
+		<string>Assist Peers</string>
+		<key>subjects</key>
+		<array>
+			<string>DDB3117F-9546-4B56-B027-69E3AFACDDA4</string>
+			<string>BBFDBCF1-75E1-46E5-84BF-1F9136098EB4</string>
+		</array>
+	</dict>
+	<key>4AA020FC-9414-4134-A9A6-9AD18E14E6D1</key>
+	<dict>
+		<key>name</key>
+		<string>Research</string>
+		<key>subjects</key>
+		<array>
+			<string>73651FBA-A63A-4553-B68F-C8F6F2424676</string>
+			<string>EBFEF11D-5AB2-4901-8CF1-CD717DCBFB7D</string>
+			<string>1D922E05-07F0-49BF-95C1-2564D49C3910</string>
+		</array>
+	</dict>
+	<key>739EFBE7-96AD-40DF-BD33-95111A4FD76B</key>
+	<dict>
+		<key>name</key>
+		<string>Resolve Problem</string>
+		<key>subjects</key>
+		<array>
+			<string>8A2835BE-CF69-48D2-842E-2994282E48CA</string>
+		</array>
+	</dict>
+</dict>
+</plist>

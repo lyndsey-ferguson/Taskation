@@ -1,0 +1,812 @@
+== April 5th, 2009, 10:54 AM ==
+
+DONE:
+
+	√ add serial number protection
+		√ decide where to store the license information: preferences
+		√ decide where the periodic license validation is performed;
+			=> periodically
+			=> When an activities elapsed time is incremented, randomly validate the license
+			=> if the license fails, then post a message to be handled when possible
+			=> that the validation failed.
+		√ write innocuous code that performs the validation
+		√ write code to read the license from the app storage place
+		√ write code to write the license to the app storage place
+		√ write code to display a validation passed dialog
+
+== April 1st, 2009, XX::XX PM ==
+
+TODO:
+	- add serial number protection
+		- decide where to store the license information: preferences
+		- decide where the periodic license validation is performed;
+			=> periodically
+			=> When an activities elapsed time is incremented, randomly validate the license
+			=> if the license fails, then post a message to be handled when possible
+			=> that the validation failed.
+		- write innocuous code that performs the validation
+		- write code to read the license from the app storage place
+		- write code to write the license to the app storage place
+		- write code to display a validation passed dialog
+		
+
+== April 1st, 2009, XX::XX PM ==
+
+TODO:
+	- add serial number protection
+	- fix bug where the subjects combo box makes it difficult to enter text that is not part of the list.
+	- add support for undo/redo in notes
+	- fix display problem that occurs when the page size changes. 
+	- update report view page position when zooming in and out.
+	- fix problem where the elapsed time's colon's can be deleted.
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- add preference to ask the user if they are still in the same activity
+
+DONE:
+	√ save the action and subject definitions in the document as a back-up.
+		√ Update the Preferences to work with the default activity definitions rather than the 
+			"shared instance"
+			√ work out the problem where the new preferences are not being writing out
+			√ factor out the activity definitions view so that both the preferences and 
+				the document windows can use it.
+			√ add support for the user to change the document activity definitions.
+	√ add support to properly enable/disable menu items based on context
+
+== March 30th, 2009, 8:31 PM ==
+
+TODO:
+	~ save the action and subject definitions in the document as a back-up.
+		- Update the Preferences to work with the default activity definitions rather than the 
+			"shared instance"
+			- work out the problem where the new preferences are not being writing out
+			- factor out the activity definitions view so that both the preferences and 
+				the document windows can use it.
+			- add support for the user to change the document activity definitions.
+	- add support to properly enable/disable menu items based on context
+	- add serial number protection
+	- fix bug where the subjects combo box makes it difficult to enter text that is not part of the list.
+	- add support for undo/redo in notes
+	- fix display problem that occurs when the page size changes. 
+	- update report view page position when zooming in and out.
+	- fix problem where the elapsed time's colon's can be deleted.
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- add preference to ask the user if they are still in the same activity
+
+DONE:
+	√ add support to print the journal
+		√ fix the centering of the columns
+		√ print each activity and its notes
+		√ frame each activity and its notes
+		√ color each "main" row (the main part of an activity)
+	~ save the action and subject definitions in the document as a back-up.
+		√ Fix the activity class so that it uses its document's activity definitions
+		
+== March 27th, 2009, 12:10 AM ==
+
+TODO:
+
+	- add support to print the journal
+		- fix the centering of the columns
+		- print each activity and its notes
+	- save the action and subject definitions in the document as a back-up.
+	- add support to properly enable/disable menu items based on context
+	- add serial number protection
+	- add support for undo/redo in notes
+	- fix display problem that occurs when the page size changes. 
+	- update report view page position when zooming in and out.
+	- fix problem where the elapsed time's colon's can be deleted.
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- add preference to ask the user if they are still in the same activity
+
+DONE:
+	√ Refactored the TSKActivityPrintView code
+	√ Added support to print the journal column headers
+	
+== March 25th, 2009, 6:41 PM ==
+
+TODO:
+
+	- add support to print the journal
+	- save the action and subject definitions in the document as a back-up.
+	- add support to properly enable/disable menu items based on context
+	- add serial number protection
+	- add support for undo/redo in notes
+	- fix display problem that occurs when the page size changes. 
+	- update report view page position when zooming in and out.
+	- fix problem where the elapsed time's colon's can be deleted.
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- add preference to ask the user if they are still in the same activity
+
+DONE:
+	√ began adding support to print the journal. There are many issues:
+		* unable to print action strings for 2nd and subsequent activities
+		* not all activity fields are printed
+		* no title heading
+		* no division between activities
+	√ add support to change report page look when user changes page setup.	
+	√ Reorganized my priorities
+	
+	
+== March 23rd, 2009, XX:XX ?? == 
+
+TODO:
+	- update report view page position when zooming in and out.
+	- add support to change report page look when user changes page setup
+	- add support to print the journal
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- properly handle openning the document from a computer that doesn't have the saved
+		subjects and actions.
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+	- properly update menu status depending on context (saved document, report, etc)
+	- add support for undo in the notes view
+
+DONE
+	√ update custom zooming
+	
+
+== March 23rd, 2009, 12:01 AM == 
+
+TODO:
+	- update custom zooming
+	- update report view page position when zooming in and out.
+	- properly handle openning the document from a computer that doesn't have the saved
+		subjects and actions.
+	- add support to change report page look when user changes page setup
+	- add support to print the journal
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+	- properly update menu status depending on context (saved document, report, etc)
+	- add support for undo in the notes view
+
+DONE:
+	√ add support to print the report
+		√ fix problem where the output is not printing in the page
+	√ add support to zoom in and out of the report view
+
+== February 28th, 2009, 11:51 AM (X:XX:XX) ==
+
+TODO:
+	- add support to print the report
+		- fix problem where the output is not printing in the page
+	- add support to zoom in and out of the report view
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+	- properly update menu status depending on context (saved document, report, etc)
+	- add support for undo in the notes view
+
+DONE:
+	√ finish supporting grouping activities based on action and subject in report chart
+	√ add support to save the report as a PDF
+
+== February 24th, 2009, 10:10 PM (0:01:00) ==
+
+TODO:
+	- finish supporting grouping activities based on action and subject in report chart
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+	- properly update menu status depending on context (saved document, report, etc)
+	- add support for undo in the notes view
+
+DONE:
+	- added percentages to the pie chart piece strings
+	- decided not to do: "in the report window, draw a legend with the colors, names and percentages"
+		as it didn't make sense
+
+== February 21st, 2009, 7:46 PM (0:01:00) ==
+
+TODO:
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+	- properly update menu status depending on context (saved document, report, etc)
+	- add support for undo in the notes view
+	
+DONE:
+	√ improve speed of opening a file
+	√ if the first thing to do upon launch is to open a file, close the empty default doc window
+	√ upon open, set the opened document equal to the key window
+
+== February 18th, 2009, 8:11 PM (0:01:00) ==
+
+TODO:
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+	- properly update menu status depending on context (saved document, report, etc)
+	
+DONE:
+	~ support the "small" size in the toolbar.
+	√ mark the document as dirty when a note has changed.
+	√ add support to delete a row by pressing delete
+	√ fix problem were adding a new activity will display unfiltered results when in filter mode
+
+== February 9th, 2009, ??:?? XM (X:XX:XX) ==
+
+DONE:
+	√ fix the issue where the notes row is not extending to the edge of the NSTableView
+
+== February 8th, 2009, 12:32 AM (0:02:00) ==
+
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+
+DONE:
+	√ create a better way of associating actions and subjects
+
+== February 1st 2009, 1:49 PM (0:04:00) ==
+
+	- create a better way of associating actions and subjects
+		- create a user interface that allows users to manage their actions and subjects
+			- analyze and fix problem where subject ids can have the same text.
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+				
+DONE:
+	~ create a better way of associating actions and subjects
+		~ create a user interface that allows users to manage their actions and subjects
+		- created way to allow users to:
+			- add actions
+			- remove actions
+			- add subjects
+			- remove subjects
+
+== January 26th, 10:52 (0:02:00) ==
+
+TODO:
+	- create a better way of associating actions and subjects
+		- create a user interface that allows users to manage their actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+
+DONE:
+	~ create a better way of associating actions and subjects
+		√ allow the user to add new subjects
+			√ update the action subject manager to accept new subjects/actions
+		√ allow the user to associate subjects with actions
+		√ allow the user to create new actions
+		√ properly determine if a subject is already associated with an action.
+
+	
+== January 25th, 1:20 PM (0:03:30) ==
+
+TODO:
+	- create a better way of associating actions and subjects
+		- allow the user to add new subjects
+			- update the action subject manager to accept new subjects/actions
+		- allow the user to associate subjects with actions
+		- allow the user to create new actions
+		- create a user interface that allows users to manage their actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+
+DONE:
+	√ created a better way of associating actions and subjects with 
+		proper unique identifers rather than index numbers
+
+== January 20th, 9:57 PM (0:00:30) ==
+
+	- create a better way of associating actions and subjects
+		- allow the user to add new subjects
+			- update the action subject manager to accept new subjects/actions
+		- allow the user to associate subjects with actions
+		- allow the user to create new actions
+		- create a user interface that allows users to manage their actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+
+DONE:
+	~ create a better way of associating actions and subjects
+		√ allow the user to add new subjects
+			√ ask the user if they want to add new subjects/actions
+
+== January 18th, 11:45 AM (0:02:00) ==
+
+TODO:
+	- create a better way of associating actions and subjects
+		- allow the user to add new subjects
+			- ask the user if they want to add new subjects/actions
+			- update the action subject manager to accept new subjects/actions
+		- allow the user to associate subjects with actions
+		- allow the user to create new actions
+		- create a user interface that allows users to manage their actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+
+DONE:
+	√ create a subject combo box data source
+	√ hook up the criteria view's combo boxes data sources
+	√ alter code so that the subject combo box's data source always contains the subjects associated with
+		the currently selected action
+	√ created alert strings to display when the user has clicked the record button with unknown action and/or subject
+		strings.
+
+== January 17th, 2009: 2:04 PM (0:02:00) ==
+
+TODO:
+	- create a better way of associating actions and subjects
+		- create a subject combo box data source
+		- hook up the criteria view's combo boxes data sources
+		- alter code so that the subject combo box's data source always contains the subjects associated with
+			the currently selected action
+		- allow the user to add new subjects
+		- allow the user to associate subjects with actions
+		- allow the user to create new actions
+		- create a user interface that allows users to manage their actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+
+DONE:
+	√ began creating the action subject manager
+	√ altered the activity's classes method of returning the action and subject strings
+	√ created a action combo box data source
+	
+== December 21st, 2008: 4:38 PM ==
+
+TODO:
+	- create a better way of associating actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+	- improve speed of opening a file
+	- if the first thing to do upon launch is to open a file, close the empty default doc window
+	- upon open, set the opened document equal to the key window
+	- in the report window, draw a legend with the colors, names and percentages
+	- add support to save the report as a PDF
+	- add support to print the report
+	- add support to properly update the text editing cursor after an edit in the elapsed time formatter
+	- add suppport to properly enable/disable menu items based on context.
+	- add serial number protection
+	- add preference to ask the user if they are still in the same activity
+	- add support to show a utility palette on top of all other windows requesting same activity status
+	- fix problem where the elapsed time's colon's can be deleted.
+	
+DONE:
+	√ add support to create a pie chart of the displayed tasks.
+	√ draw the elapsed time so that it is clear what the seconds, minutes, hours and days are
+	√ display an empty document window on launch
+	
+== December 20th, 2008: 6:12 PM ==
+
+TODO:
+	- add support to create a pie chart of the displayed tasks.
+	- create a better way of associating actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- draw the elapsed time so that it is clear what the seconds, minutes, hours and days are
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- display an empty document window on launch
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+
+DONE:
+	√ add support to filter the tasks displayed by elapsed time.
+
+NOT TODO:
+	- add support to filter the tasks displayed by notes.
+
+== December 16th, 2008: 9:37 PM ==
+
+TODO:
+	- add support to filter the tasks displayed by elapsed time and notes.
+	- add support to create a pie chart of the displayed tasks.
+	- create a better way of associating actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- draw the elapsed time so that it is clear what the seconds, minutes, hours and days are
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- display an empty document window on launch
+	- add support to delete a row by pressing delete
+	- fix problem were adding a new activity will display unfiltered results when in filter mode
+
+DONE:
+	√ Add support to filter tasks displayed by start and end date/time
+
+== December 13th, 2008: 1:07 PM ==
+
+DONE:
+	√ Add support to filter tasks displayed by action and subject
+	
+== November 25th, 2008: 9:01 AM ==
+
+TODO:
+	- add support to filter the tasks displayed by action, subject, start time, elapsed time and/or finished time.
+	- add support to create a pie chart of the displayed tasks.
+	- create a better way of associating actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- draw the elapsed time so that it is clear what the seconds, minutes, hours and days are
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- display an empty document window on launch
+	- add support to delete a row by pressing delete
+
+DONE:
+	~ Researched how to work with the NSPredicateEditor class and how to layout the view that is not there by default.
+	
+== November 13th, 2008: 2:24 PM ==
+
+TODO:
+	- add support to filter the tasks displayed by action, subject, start time, elapsed time and/or finished time.
+	- add support to create a pie chart of the displayed tasks.
+	- create a better way of associating actions and subjects
+	- fix the issue where the notes row is not extending to the edge of the NSTableView
+	- draw the elapsed time so that it is clear what the seconds, minutes, hours and days are
+	- support the "small" size in the toolbar.
+	- mark the document as dirty when a note has changed.
+	- display an empty document window on launch
+	- add support to delete a row by pressing delete
+	
+DONE:
+	√ add support to save and load journal files
+
+== November 12th, 2008: 9:48 PM ==
+
+TODO:
+	- add support to save and load journal files
+	- add support to filter the tasks displayed by action, subject, start time, elapsed time and/or finished time.
+	- add support to create a pie chart of the displayed tasks.
+
+DONE:
+	√ display dates and elapsed time in human readible format
+	√ update the activity as time passes
+	√ add support for textual notes to be added
+
+NOT TODO:
+	- add support for voice notes to be added
+	- add support for image notes to be added
+	- add support for video notes to be added (optional)
+
+== October 22nd, 2008: 8:32 AM == 
+
+TODO:
+	- display dates and elapsed time in human readible format
+	- update the activity as time passes
+	- add support for textual notes to be added
+	- add support for voice notes to be added
+	- add support for image notes to be added
+	- add support for video notes to be added (optional)
+	- add support to save and load journal files
+	- add support to filter the tasks displayed by action, subject, start time, elapsed time and/or finished time.
+	- add support to create a pie chart of the displayed tasks.
+
+DONE:
+	√ add the activity to the document window
+
+== October 17th, 2008: 10:03 AM ==
+
+DONE:
+	√ enable the enableStartStopRecordingButton boolean as there is text in the action/subject combo box.
+	√ properly populate the combo boxes with the appropriate subject/action strings (or IDs with a value transformer).
+	√ create an activity from the data in the combo boxes
+
+SCM CHANGES:
+	- Renamed TSKComboBoxDataDepot to TSKActivityComboBoxDepot
+	- Removed TSKUniqueStringTransformer
+
+== October 16th, 2008: 9:48 PM ==
+
+Pulled out the Activity Controls View Controller class and made it the instance variable for the document window.
+
+Got the doc tool bar to draw the view and the default view that I chose.
+
+Began work on monitoring the comboboxes and sending a message to the delegate.
+
+TODO:
+	- enable the enableStartStopRecordingButton boolean as there is text in the action/subject combo box.
+	- properly populate the combo boxes with the appropriate subject/action strings (or IDs with a value transformer).
+	- create an activity from the data in the combo boxes
+	- add the activity to the document window
+	- update the activity as time passes
+	- display dates and elapsed time in human readible format
+	- add support for textual notes to be added
+	- add support for voice notes to be added
+	- add support for image notes to be added
+	- add support for video notes to be added (optional)
+	- add support to save and load journal files
+	- add support to filter the tasks displayed by action, subject, start time, elapsed time and/or finished time.
+	- add support to create a pie chart of the displayed tasks.
+
+== October 7th, 2008: 8:40 PM ==
+
+Updated the ComboBox Data Depot Class to use the Action Strings and Subject Strings that are found in the Shared User Defaults. These
+	defaults should be able to be changed by the user. When changed, the combobox should be able to take advantage of that. Actually, currently
+	they may not be able to and we'll have to change how we retrieve the data as the dictionary may not change when the user changes the defaults.
+	
+Worked on making the Start/Stop Recording button enable properly. I think I have to pass the ComboBoxHasEntry function where the notification
+	came from as the selection index and combobox field contents do not seem to remain synchronized.
+	
+TODO:
+	- Update the ComboBox Data Depot Class to access the User Dictionary using a key rather than having its own pointer to a dict.
+	- Update the Check Enable State of the Record button so that we are looking at the selection index or field contents when appropriate.
+	
+
+== October 6th, 2008: 9:28 PM ==
+
+Created the Action and Subject default value dictionaries.
+
+Created the App Delegate classes initialize function that creates the default dictionary and action and subject transformers.
+
+Began to update the combobox data depot classes.
+
+== September 29th, 2008: 10:01 PM ==
+
+I have the Activity Table View hooked up to a NSArrayController and reduced the amount of code required by Taskation.
+
+I am looking into hooking up the ComboBoxes to NSArrayControllers so that they will work with a NSArray of Numerical Identifiers
+	(Unique Action or Subject values) and use a Value-Transformer to ensure that the correct NSString is returned. It is not
+	working yet as there seems to be problems with the key-value coding (or something).
+	
+I need to read up more on the Cocoa Bindings Documentation.
+
+== September 28th, 2008: 10:48 PM ==
+
+I have rewritten the application so that there is less coupling and it is better factored out.
+
+The application is now named Taskation. There are many things which I am not familiar with and think I should be using, but my understanding
+of Cocoa is too limited; I am uncertain of what to do. Cocoa Bindings sound promising. Key-Value Coding sounds promising. But I am
+unsure of where to go with this.
+
+I think I will read the manuals fon Key-Value Objserving.
+
+== September 22nd, 2008: 9:35 PM ==
+
+Here are the known outstanding issues:
+	- when I hit the record button, the window resizes, perhaps too much. Also, the details view seems to be moved too far down.
+	
+
+== September 21st, 2008: 1:53 PM ==
+
+I have accomplished a fair bit of work:
+	- adding a new activity via the console actually adds it to the current document as
+		well as starting the timer.
+		
+Here are some outstanding issues:
+ - The console window is vertically-resiable when there is no active activity. It should only be horizontally-resiable
+ - The console window resizes upward when the user clicks the record button. It should resize downward.
+ - The elapssed time displays as a double not as seconds, minutes, hours and days.
+ - The start and end time are not displayed in the corrent manner.
+ - The document window doesn't show the criteria view
+ - The document window doesn't show the notes view.
+
+== June 29th, 2008: 2:04 PM: ==
+
+I have added the basic menu items for the Windows Journal Document Window.
+
+I have hooked up the Windows shell to call into the kernel.
+
+I have started working on fleshing out the journal document gui.
+
+I have created the kernel and shell document controller classes.
+
+I am trying to get the table view to display a pre-canned set of data. For some reason it is only displaying the action and subject in each
+column even though I have different strings for the different cells. I have to look into this.
+
+== June 26th, 2008: 11:28 PM: ==
+
+I have found a better direction to take other than named pipes. Much better: I can basically
+incorporate my C++ classes directly into my C# and Objective-C applications using managed C++
+classes and Objective-C++.
+
+After receiving this knowledge, I proceeded to:
+
+	1. Remove all the LDFUtilities code as I won't be needing the majority of it now.
+	2. Remove the concept of kernel/shell applications from both the Xcode and Visual Studio Projects.
+	3. Update both projects to simply interface to the AJKernelAppController C++ class for now.
+
+	** TODO **
+	1. Finish adding the appropriate menu items for both platforms.
+	2. Hook up the basic menu items to call into the C++ app controller class.
+	3. Update the GUI designs.
+	4. Create the AJKernelDocument C++ class.
+	5. Finish the GUI for the Journal Document for both platforms.
+	6. Hook up the GUI to the C++ code.
+	7. And much more.
+	
+== June 24th, 2008: 8:13 AM: ==
+
+I've found some code on the internet that will allow me to interface to named pipes within
+C# (.NET 2.0). Apparently, while .NET 3.5 has named pipes, I prefer to keep the earlier version
+as my development environment to be more compatible with what users may have.
+
+I have begun my LDFNamedPipe C# class, but it needs work.
+
+	** TODO **
+	1. Augment the LDFNamedPipe class.
+	2. Create the input pipe in the Windows shell.
+	3. Augment the AJShellDispatcher C# class to be able to respond to messages from the
+		kernel.
+	4. Hook up the AJKernelAppController class.
+
+== June 22nd, 2008: 6:43 PM: ==
+
+I've accomplished a lot since the last entry:
+
+1. Stepped back and created the Use Cases for the application.
+2. Created the Use Case Scenario Flow Diagrams.
+3. Created the UML Class Objects
+4. Finished all the User Interfaces
+5. Reworked how I am going to build the C++ core engine and the Objective-C and C# shell interfaces.
+	- Instead of building objective-c++ code and wrapping C# classes around C++ classes, I will build a cross-platform C++ "kernel" application and then the shell applications in the Operating System's native language.
+6. Wrote the basic skeleton shell/kernel application combination for the Macintosh.
+7. Began working out the basic skeleton shell/kernel application combination for Windows.
+
+	** TODO **
+	
+	1. Create an input pipe in the Windows shell 
+	2. Figure out why the Windows kernel is quitting early before the connections have been made
+	3. Continue setting up the Windows shell/kernel application combination.
+	
+
+== June 10th, 2008: 9:47 PM: == 
+
+Created new folder TimeJournal
+
+Removed all code from .../projects/TimeMinder/source/common/...
+Put this code in .../projects/LDFUtilities/source/...
+
+== January 25th, 2008: 4:05 PM: == 
+
+- Began work on the action data source, for some reason my combo box is not being populated. But I created a "C" interface to the "C++" Singleton, the ActionManager.
+	- This entailed creating some cross-platform types and function prototypes.
+
+== January 25th, 2008: 11:37 AM: == 
+
+- Got the console's views for new and current tasks to display and hide correctly. Refactored into tidy functions.
+- Got the console's views for new and current tasks to resize correctly, even when hidden.
+
+== January 22nd, 2008: 2:16 PM: == 
+
+- Got the console window to display and hide correctly. The NSWindowController's window outlet was not hooked up to the window
+	and I was not using the correct calls to show and hide (orderFront and orderOut)
+- Set the Console window to not display in the main window list.
+
+== January 21st, 2008: 8:09 PM: == 
+
+- Created the Console.xib file
+- Created the LDFAppController class
+	- one method: toggleConsoleVisibility. This is not working for some reason, my Console window is not being displayed.
+- Created the LDFConsoleController class
+	- I am not sure if I am using the correct calls to get and set the window's visibility.
